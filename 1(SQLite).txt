@@ -1,0 +1,44 @@
+/* Executed by SQLite */
+
+CREATE TABLE CosineTable(
+angle INTEGER PRIMARY KEY,
+CosValue real NOT NULL
+);
+
+Insert into CosineTable
+values
+(0,1),
+(5,0.9962),
+(10,0.9848),
+(15,0.9659),
+(20,0.9397),
+(25,0.9063),
+(30,0.866),
+(35,0.8192),
+(40,0.766),
+(45,0.7071),
+(50,0.6428),
+(55,0.5736),
+(60,0.5),
+(65,0.4226),
+(70,0.342),
+(75,0.2588),
+(80,0.1736),
+(85,0.0872),
+(90,0)
+;
+
+
+
+
+
+select max(b)+ (min(b)-max(b))*(73-min(a))/(max(a)-min(a)) as X from 
+
+(SELECT  MIN(angle) as a,CosValue as b
+FROM CosineTable
+where angle>73
+UNION 
+SELECT MAX(angle),CosValue
+FROM CosineTable
+where angle<73) 
+ 
