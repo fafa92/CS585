@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="z1">
+<IconStyle><Icon><href>http://www.google.com/intl/en_us/mapfiles/ms/micons/blue-dot.png</href></Icon></IconStyle>
+</Style>
+<Placemark><name>Home</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.257303, 34.057895</coordinates></Point>
+</Placemark>
+<Placemark><name>Subway</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.257964,34.057064</coordinates></Point>
+</Placemark>
+<Placemark><name>Lorenzo</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.259039, 34.057505</coordinates></Point>
+</Placemark>
+<Placemark><name>Stadium</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.260734, 34.058184</coordinates></Point>
+</Placemark>
+<Placemark><name>Emeral</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.26053, 34.059855</coordinates></Point>
+</Placemark>
+<Placemark><name>FSDigital</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.258159, 34.060126</coordinates></Point>
+</Placemark>
+<Placemark><name>BackYard</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.257784, 34.058598</coordinates></Point>
+</Placemark>
+<Placemark><name>School</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.257933, 34.057969</coordinates></Point>
+</Placemark>
+<Placemark><name>Baseball</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.258669, 34.059107</coordinates></Point>
+</Placemark>
+<Placemark><name>Lucas</name>
+<styleUrl>#z1</styleUrl><Point><coordinates>-118.259784, 34.061649</coordinates></Point>
+</Placemark>
+</Document></kml>

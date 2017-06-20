@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://earth.google.com/kml/2.0">
+<Document>
+<Style id="transBluePoly">
+      <LineStyle>
+        <width>1.5</width>
+      </LineStyle>
+      <PolyStyle>
+        <color>7dff0000</color>
+      </PolyStyle>
+    </Style>
+<Placemark><name>Home</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.257303, 34.057895</coordinates></Point>
+</Placemark>
+<Placemark><name>Subway</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.257964,34.057064</coordinates></Point>
+</Placemark>
+<Placemark><name>Lorenzo</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.259039, 34.057505</coordinates></Point>
+</Placemark>
+<Placemark><name>Stadium</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.260734, 34.058184</coordinates></Point>
+</Placemark>
+<Placemark><name>Emeral</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.26053, 34.059855</coordinates></Point>
+</Placemark>
+<Placemark><name>FSDigital</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.258159, 34.060126</coordinates></Point>
+</Placemark>
+<Placemark><name>Backyard</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.257784, 34.058598</coordinates></Point>
+</Placemark>
+<Placemark><name>School</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.257933, 34.057969</coordinates></Point>
+</Placemark>
+<Placemark><name>Baseball</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.258669, 34.059107</coordinates></Point>
+</Placemark>
+<Placemark><name>Lucas</name>
+<styleUrl>#transBluePoly</styleUrl><Point><coordinates>-118.259784, 34.061649</coordinates></Point>
+</Placemark>
+  <Placemark>
+      <name>Convexhull</name>
+      <styleUrl>#transBluePoly</styleUrl>
+      <Polygon>
+        <extrude>1</extrude>
+        <altitudeMode>relativeToGround</altitudeMode>
+        <outerBoundaryIs>
+          <LinearRing>
+            <coordinates>-118.257964,34.057064,30
+              -118.260734,34.058184,30
+              -118.26053,34.059855,30
+              -118.259784,34.061649,30
+              -118.258159,34.060126,30
+              -118.257303,34.057895,30
+              -118.257964,34.057064,30
+            
+            
+            </coordinates>
+          </LinearRing>
+        </outerBoundaryIs>
+      </Polygon>
+    </Placemark>
+</Document></kml>
